@@ -1,15 +1,17 @@
-let availableImg = document.getElementById("AvailableImg");
+function changeH1() {
+    document.getElementById('name').textContent = "Faraj Saad";
+};
 
-availableImg.classList.add("hover");
+function changeJob() {
+    document.getElementById('job').textContent = "Programing";
+};
 
-availableImg
+function img() {
+    document.getElementById('AvailableImg').setAttribute('src', 'https://media.istockphoto.com/id/1817451097/photo/this-is-a-good-news-i-read-on-my-mobile-phone.webp?a=1&b=1&s=612x612&w=0&k=20&c=kYmQG7921zMZJhRkHn5HG-ntqKtGcyfAynfSvExMoHA=')
+}
 
-let nameJob = document.getElementById("nameJob");
+function prag() {
+    document.getElementById('prag').textContent = "I love programming and I love to learn it every day and I love working with it";
+};
 
-// nameJob.style.color = "blue";
-
-nameJob.classList.add("hover");
-
-var css = 'h1:hover{ background-color: #0000ff }';
-console.log(css);
 

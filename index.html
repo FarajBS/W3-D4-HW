@@ -22,7 +22,7 @@
                 <div class="row mt-3">
                     <div class="col-12 col-md-4 py-4 px-5 d-flex justify-content-center align-items-center mainBg">
                         <div class="containerImg h-100">
-                            <img id="AvailableImg" src="images/availableImage.jpg" class="object-fit-xxl-contain" alt="Available image">
+                            <img onmouseover="img()" id="AvailableImg" src="images/availableImage.jpg" class="object-fit-xxl-contain" alt="Available image">
                         </div>
                     </div>
 
@@ -30,8 +30,8 @@
                     
                     <div class="col-12 col-md-8 py-4 px-5 d-flex align-items-center">
                         <div id="nameJob" class="nameJob">
-                            <h1 class="fs-1">RICHARD <span class="fw-light">SANCHEZ</span></h1>
-                            <h4 class="fs-4 fw-normal"><span>MARKE</span>TING MANAGER</h4>
+                            <h1 onmouseover="changeH1()" id="name" class="fs-1">RICHARD <span class="fw-light">SANCHEZ</span></h1>
+                            <h4 onmouseover="changeJob()" class="fs-4 fw-normal" id="job"><span>MARKE</span>TING MANAGER</h4>
                         </div>
                     </div>
                 </div>
@@ -49,7 +49,7 @@
 
                             <hr />
 
-                            <h4 class="fs-6 fw-normal mb-4"><span class="me-3"><i class="fa-solid fa-phone fa-fw"></i></span> +123-456-7890</h4>
+                            <h4 class="fs-6 fw-normal mb-4"><span class="me-3"><i class="fa-solid fa-phone fa-fw"></i></span > +123-456-7890</h4>
                             <h4 class="fs-6 fw-normal mb-4"><span class="me-3"><i class="fa-solid fa-envelope fa-fw"></i></span> hello@reallygreatsite.com</h4>
                             <h4 class="fs-6 fw-normal mb-4"><span class="me-3"><i class="fa-solid fa-location-dot fa-fw"></i></span> 123 Anywhere St.. Any City</h4>
                             <h4 class="fs-6 fw-normal mb-4"><span class="me-3"><i class="fa-solid fa-globe fa-fw"></i></span> www.reallygreatsite.com</h4>
@@ -64,7 +64,7 @@
 
                             <hr />
 
-                            <P class="fs-5">
+                            <P class="fs-5" onmouseover="prag()" id="prag">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                                 Quisquam, similique commodi! Amet consectetur deleniti in sed ducimus eligendi accusantium distinctio ex 
                                 totam animi suscipit, voluptate optio eveniet necessitatibus deserunt labore!
